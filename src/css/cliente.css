@@ -1,0 +1,24 @@
+* {
+    margin:0px;
+    padding: 3px;
+}
+
+.centro1    {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: 25% 25% 25% ;
+    justify-content: center;
+}
+
+.buttoncenter{
+text-align: center;
+padding: 15px;
+}
+.mb1 {
+    padding: 6px 50px;
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
