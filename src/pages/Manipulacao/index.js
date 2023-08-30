@@ -11,7 +11,7 @@ export default function Manipulacao() {
     useEffect(() => {
         async function visualizaDados() {
             const response = await apiBack.get('/visualizaDados')
-            setDados(response.data)
+                setDados(response.data)
         }
         visualizaDados()
     }, [dados])
