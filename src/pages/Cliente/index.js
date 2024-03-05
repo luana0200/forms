@@ -150,8 +150,6 @@ export default function Cliente() {
                         value={numero}
                         onChange={(e) => setNumero(e.target.value)} />
 
-
-
                     <label>Complemento: </label>
                     <IMaskInput className="mb"
                         type='text'
